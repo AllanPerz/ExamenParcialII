@@ -35,9 +35,9 @@ public class frmPacienteAP extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        btnAceptar = new javax.swing.JButton();
+        btnAceptarAP = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
-        btnCancelar = new javax.swing.JButton();
+        btnCancelarAP = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
         btnVerInformacionAP = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
@@ -54,11 +54,11 @@ public class frmPacienteAP extends javax.swing.JFrame {
 
         jLabel2.setText("Dirección");
 
-        btnAceptar.setText("Aceptar");
+        btnAceptarAP.setText("Aceptar");
 
         jLabel3.setText("Edad");
 
-        btnCancelar.setText("Cancelar");
+        btnCancelarAP.setText("Cancelar");
 
         jLabel4.setText("Enfermedad");
 
@@ -115,9 +115,9 @@ public class frmPacienteAP extends javax.swing.JFrame {
                                 .addComponent(txtNrmHistorialAP, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(28, 28, 28)
-                        .addComponent(btnAceptar)
+                        .addComponent(btnAceptarAP)
                         .addGap(18, 18, 18)
-                        .addComponent(btnCancelar)
+                        .addComponent(btnCancelarAP)
                         .addGap(18, 18, 18)
                         .addComponent(btnVerInformacionAP, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(25, Short.MAX_VALUE))
@@ -149,8 +149,8 @@ public class frmPacienteAP extends javax.swing.JFrame {
                     .addComponent(txtEnfermedadAP, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnAceptar)
-                    .addComponent(btnCancelar)
+                    .addComponent(btnAceptarAP)
+                    .addComponent(btnCancelarAP)
                     .addComponent(btnVerInformacionAP))
                 .addGap(55, 55, 55))
         );
@@ -202,8 +202,8 @@ public class frmPacienteAP extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAceptar;
-    private javax.swing.JButton btnCancelar;
+    private javax.swing.JButton btnAceptarAP;
+    private javax.swing.JButton btnCancelarAP;
     private javax.swing.JButton btnVerInformacionAP;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

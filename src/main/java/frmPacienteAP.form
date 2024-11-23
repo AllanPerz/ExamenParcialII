@@ -67,9 +67,9 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                      <Component id="btnAceptar" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnAceptarAP" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btnCancelar" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnCancelarAP" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="btnVerInformacionAP" min="-2" pref="163" max="-2" attributes="0"/>
                   </Group>
@@ -110,8 +110,8 @@
               </Group>
               <EmptySpace pref="22" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnAceptar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAceptarAP" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCancelarAP" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnVerInformacionAP" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
@@ -139,7 +139,7 @@
         <Property name="text" type="java.lang.String" value="Direcci&#xf3;n"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnAceptar">
+    <Component class="javax.swing.JButton" name="btnAceptarAP">
       <Properties>
         <Property name="text" type="java.lang.String" value="Aceptar"/>
       </Properties>
@@ -149,7 +149,7 @@
         <Property name="text" type="java.lang.String" value="Edad"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnCancelar">
+    <Component class="javax.swing.JButton" name="btnCancelarAP">
       <Properties>
         <Property name="text" type="java.lang.String" value="Cancelar"/>
       </Properties>

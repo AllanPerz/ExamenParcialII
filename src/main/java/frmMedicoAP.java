@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class frmMedicoAP extends javax.swing.JFrame {
 
-    List<PacienteAP> lista = new ArrayList<PacienteAP>();
+    List<MedicoAp> lista = new ArrayList<MedicoAp>();
     
     /**
      * Creates new form frmMedicoAP
@@ -179,7 +179,14 @@ public class frmMedicoAP extends javax.swing.JFrame {
     }//GEN-LAST:event_txtDireccionAPActionPerformed
 
     private void btnAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarActionPerformed
-        // TODO add your handling code here:
+        lista.add(new MedicoAp(
+                txtNombreAP.getText(), 
+                //txtEdadAP.getText(),
+                txtDireccionAP.getText(),
+                txtEspecialidadAP.getText(),
+                txtAñosExpAP.getText())
+        );
+    }                                       
     }//GEN-LAST:event_btnAceptarActionPerformed
 
     private void btnCancelarApActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarApActionPerformed
